@@ -1,7 +1,9 @@
 #!/bin/bash
 
 export DOTFILES_DIR
-DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )"
+DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+echo $DOTFILES_DIR
 
 . "$DOTFILES_DIR/homebrew/install.sh"
 . "$DOTFILES_DIR/node/install.sh"
@@ -13,5 +15,3 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )"
 
 # VSCode extensions
 . "$DOTFILES_DIR/vscode/install.sh"
-
-
