@@ -9,11 +9,17 @@ brew update
 brew upgrade
 
 # Install dependencies
-brew install dockutil
+#brew install dockutil ONLY OLD VERSION AVAILABLE
 brew install git
 brew install thefuck
 brew install wget
 
+# Temp dockutil install
+wget https://github.com/kcrawford/dockutil/releases/download/3.0.2/dockutil-3.0.2.pkg
+sudo installer -pkg dockutil-3.0.2.pkg
+rm -f dockutil-3.0.2.pkg
+
+# Done
 sleep 1
 echo "Success! Basic brew packages are installed."
 

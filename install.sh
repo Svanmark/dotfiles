@@ -9,6 +9,7 @@ echo $DOTFILES_DIR
 . "$DOTFILES_DIR/node/install.sh"
 . "$DOTFILES_DIR/macos/defaults.sh"
 . "$DOTFILES_DIR/macos/dock.sh"
+. "$DOTFILES_DIR/terminal/ohmy.sh"
 
 # Setup symlinks
 . "$DOTFILES_DIR/macos/symlinks.sh"
