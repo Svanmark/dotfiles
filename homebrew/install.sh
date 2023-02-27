@@ -16,7 +16,7 @@ brew install wget
 
 # Temp dockutil install
 wget https://github.com/kcrawford/dockutil/releases/download/3.0.2/dockutil-3.0.2.pkg
-sudo installer -pkg dockutil-3.0.2.pkg
+sudo installer -pkg dockutil-3.0.2.pkg -target /
 rm -f dockutil-3.0.2.pkg
 
 # Done
