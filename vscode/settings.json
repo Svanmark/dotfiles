@@ -1,0 +1,138 @@
+{
+  "window.openFoldersInNewWindow": "on",
+
+  // Editor font
+  "editor.fontSize": 16,
+  "editor.lineHeight": 26,
+  //"editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+
+  // Add new line eof when saving
+  "files.insertFinalNewline": true,
+
+  // Trim trailing spaces on save
+  "editor.trimAutoWhitespace": true,
+  "files.trimTrailingWhitespace": true,
+
+  // Indentaion
+  "editor.tabSize": 2,
+
+  // Emmet
+  "emmet.syntaxProfiles": {
+    "javascript": "html",
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "jsx-sublime-babel-tags": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showExpandedAbbreviation": "never",
+
+  "editor.codeActionsOnSave": {
+      "source.organizeImports": false,
+      "source.fixAll.eslint": true
+  },
+
+  "editor.matchBrackets": false,
+  "editor.minimap.enabled": false,
+
+  // ESLint
+  "eslint.enable": true,
+
+  // Search
+  "search.exclude": {
+      "**/.git": true,
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/tmp": true,
+      "**/build": true
+  },
+
+  "javascript.suggest.completeJSDocs": true,
+  "explorer.confirmDragAndDrop": false,
+
+  "workbench.colorCustomizations": {
+      "editorIndentGuide.background": "#353C49",
+      "editorIndentGuide.activeBackground": "#495263",
+      "gitlens.trailingLineForegroundColor": "#424859"
+  },
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.fontAliasing": "auto",
+
+  "todohighlight.keywords": [
+      {
+          "text": "@todo",
+          "color": "white",
+          "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+          "backgroundColor": "#743B3E",
+      }
+  ],
+
+  "editor.tokenColorCustomizations": {
+      "comments": {
+          "fontStyle": "italic"
+      }
+  },
+  "explorer.openEditors.visible": 0,
+  "workbench.startupEditor": "welcomePage",
+  "sync.gist": "84fc20322afd351f247398b8568094eb",
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "sync.removeExtensions": false,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.lastUpload": "2018-07-23T11:14:57.268Z",
+  "sync.lastDownload": "",
+  "sync.forceDownload": false,
+  "gitlens.keymap": "chorded",
+  "gitlens.advanced.messages": {
+      "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.currentLine.format": "${author}, ${ago}",
+  "gitlens.statusBar.enabled": true,
+  "gitlens.statusBar.alignment": "left",
+  "liveshare.featureSet": "stable",
+  "update.enableWindowsBackgroundUpdates": false,
+  "workbench.statusBar.feedback.visible": false,
+
+  "subtleBrackets.style": {
+      "color": "yellow",
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "borderRadius": "3px",
+      "fontWeight": "bold"
+  },
+  "breadcrumbs.enabled": false,
+  "javascript.suggest.autoImports": false,
+  "yaml.schemas": {
+      "file:///Users/kristoffersvanmark/.vscode/extensions/atlassian.atlascode-2.4.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.jira.jqlList": [
+      {
+          "id": "cac01613-fa65-48a6-af03-0dc423f2bf10",
+          "enabled": true,
+          "name": "My i-p-e-x Issues",
+          "query": "assignee = currentUser() ORDER BY lastViewed DESC ",
+          "siteId": "78cda961-45f0-4d09-abe7-8d1deef61c10",
+          "monitor": true
+      }
+  ],
+  "atlascode.bitbucket.pipelines.explorerEnabled": false,
+
+  "yaml.customTags": [
+      "!Fn::GetAtt:",
+      "!Ref"
+  ],
+  "update.mode": "manual",
+  "[typescriptreact]": {
+      "editor.formatOnSave": true
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "redhat.telemetry.enabled": false,
+  "editor.guides.indentation": true,
+  "workbench.colorTheme": "Atom One Dark",
+  "oneDarkPro.bold": false,
+  "oneDarkPro.vivid": false,
+  "sonarlint.pathToNodeExecutable": "/Users/kristoffersvanmark/.nvm/versions/node/v16.18.0/bin/node"
+}
