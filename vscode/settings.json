@@ -29,11 +29,11 @@
   "emmet.showExpandedAbbreviation": "never",
 
   "editor.codeActionsOnSave": {
-      "source.organizeImports": false,
+      "source.organizeImports": true,
       "source.fixAll.eslint": true
   },
 
-  "editor.matchBrackets": false,
+  "editor.matchBrackets": true,
   "editor.minimap.enabled": false,
 
   // ESLint
@@ -108,18 +108,6 @@
   "yaml.schemas": {
       "file:///Users/kristoffersvanmark/.vscode/extensions/atlassian.atlascode-2.4.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
-  "atlascode.jira.jqlList": [
-      {
-          "id": "cac01613-fa65-48a6-af03-0dc423f2bf10",
-          "enabled": true,
-          "name": "My i-p-e-x Issues",
-          "query": "assignee = currentUser() ORDER BY lastViewed DESC ",
-          "siteId": "78cda961-45f0-4d09-abe7-8d1deef61c10",
-          "monitor": true
-      }
-  ],
-  "atlascode.bitbucket.pipelines.explorerEnabled": false,
-
   "yaml.customTags": [
       "!Fn::GetAtt:",
       "!Ref"
