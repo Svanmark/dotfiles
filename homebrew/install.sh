@@ -38,6 +38,7 @@ brew install --cask --appdir="/Applications" hyper
 brew install --cask --appdir="/Applications" caffeine
 brew install --cask --appdir="/Applications" visual-studio
 brew install --cask --appdir="/Applications" visual-studio-code
+brew install --cask --appdir="/Applications" Authy
 
 
 # Quick Look plugins
