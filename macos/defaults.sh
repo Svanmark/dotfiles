@@ -68,6 +68,10 @@ defaults write com.apple.dock tilesize -int 25
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
+# Tackpad
+defaults write com.apple.AppleMultitouchTrackpad TrackpadCornerSecondaryClick -bool true
+
+
 for app in "Address Book" "Calendar" "Contacts" "Dock" "Finder" "Mail" "Safari" "SystemUIServer" "iCal"; do
   killall "${app}" &> /dev/null
 done

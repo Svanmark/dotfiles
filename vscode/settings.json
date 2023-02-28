@@ -2,7 +2,7 @@
   "window.openFoldersInNewWindow": "on",
 
   // Editor font
-  "editor.fontSize": 16,
+  "editor.fontSize": 17,
   "editor.lineHeight": 26,
   //"editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
 
@@ -33,7 +33,7 @@
       "source.fixAll.eslint": true
   },
 
-  "editor.matchBrackets": true,
+  "editor.matchBrackets": false,
   "editor.minimap.enabled": false,
 
   // ESLint
@@ -119,7 +119,7 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "redhat.telemetry.enabled": false,
   "editor.guides.indentation": true,
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorTheme": "One Dark Pro",
   "oneDarkPro.bold": false,
   "oneDarkPro.vivid": false,
   "sonarlint.pathToNodeExecutable": "/Users/kristoffersvanmark/.nvm/versions/node/v16.18.0/bin/node"

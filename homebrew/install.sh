@@ -13,6 +13,7 @@ brew upgrade
 brew install git
 brew install thefuck
 brew install wget
+brew install autojump
 
 # Temp dockutil install
 wget https://github.com/kcrawford/dockutil/releases/download/3.0.2/dockutil-3.0.2.pkg

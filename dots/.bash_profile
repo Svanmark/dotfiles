@@ -4,3 +4,6 @@ done;
 unset file;
 
 eval $(thefuck --alias)
+
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
