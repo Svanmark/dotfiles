@@ -1,14 +1,4 @@
-alias gp="git pull"
 alias gs="git status -s"
-alias ga="git add -A"
-alias gc="git commit -m"
-alias gco="git checkout"
-
-# Create new branch from branch
-gb() {
-  git checkout -b $1
-  git push -u origin $1
-}
 
 # Add, commit and push
 gacp() {
